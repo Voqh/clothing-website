@@ -1,0 +1,128 @@
+header {
+  background-color: #e3e1de;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  z-index: 1;
+}
+header h1 {
+  color: #f331a2;
+  border: 2px solid #f331a2;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header a {
+  position: fixed;
+  right: 40px;
+  top: 20px;
+  text-decoration: none;
+  background-color: #f3ebeb;
+  color: blue;
+  font-size: 1.1em;
+  padding: 4px 8px;
+  display: inline-block;
+  border-radius: 30px;
+  border: 1px solid #f331a2;
+}
+.banner {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 10px 0;
+  padding: 0;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner .shop {
+  position: absolute;
+  top: 40%;
+  left: 0px;
+}
+.banner h2 {
+  font-size: 24px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.banner h2 span {
+  color: red;
+}
+main {
+  margin: 80px auto;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  color: #f331a2;
+}
+article p {
+  line-height: 1.3em;
+  font-size: 1.2em;
+  border: 1px solid #f331a2;
+  padding: 20px;
+  background-color: #e3e1de;
+}
+main ul {
+  white-space: nowrap;
+  text-align: center;
+}
+main li {
+  display: inline-block;
+  width: 20%;
+}
+main li img {
+  width: 100%;
+  height: 100%;
+}
+nav {
+  position: sticky;
+  top: 60px;
+  background-color: #e3e1de;
+  margin-top: 2px;
+  display: block;
+  z-index: 1;
+}
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 5px auto;
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  width: 33.3%;
+  display: inline-block;
+  font-size: 20px;
+}
+nav li a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #f331a2;
+  border-radius: 30px;
+  display: inline-block;
+  background-color: #e3e1de;
+  padding: 3px 6px;
+}
+.text {
+  font-size: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+}
+footer {
+  background-color: #f331a2;
+  color: black;
+  padding: 10px 0px;
+  border: 1px solid white;
+  text-align: center;
+  margin: 20px 0px;
+}
