@@ -1,37 +1,48 @@
 header {
   background-color: #e3e1de;
-  text-align: center;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 0;
   margin: 0;
-  height: 60px;
   z-index: 1;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
 }
-header h1 {
-  color: #f331a2;
-  border: 2px solid #f331a2;
-  border-radius: 30px;
-  display: inline-block;
-  padding: 10px;
+@media screen and (max-width:720px) {
+header{
+  position: relative;
+ display: inline-block;
+ padding: 10px;
+}
+#button5  {
+position: absolute;
+right: 10%;
+top: 72%;
+}
+header a{
+  position: absolute;
+  right: 20px;
+  top: 10%;
+}
+  header form{
+  max-width: 100%;
+  display: block;
+}
+}
+header div{
+  display: flex;
+align-items: center;
+}
+
+body > header > div:nth-child(3) > svg{
+  width: 25px;
+  height: 20px;
+}
+header h1{
   font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-header a {
-  position: fixed;
-  right: 40px;
-  top: 20px;
-  text-decoration: none;
-  background-color: #f3ebeb;
-  color: black;
-  font-size: 1.1em;
-  padding: 4px 8px;
-  display: inline-block;
-  border-radius: 30px;
-  border: 1px solid #f331a2;
 }
 .banner {
   position: relative;
