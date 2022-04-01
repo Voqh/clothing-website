@@ -12,24 +12,48 @@ header {
   align-items: stretch;
 }
 @media screen and (max-width:720px) {
+  body{
+    box-sizing: border-box;
+  }
 header{
   position: relative;
  display: inline-block;
  padding: 10px;
+ max-width: 100%;
+ box-sizing: border-box;
+}
+.search{
+  background-color: white;
+  border: 1px solid black;
+  width: 80%;
+}
+header input{
+  border: none;
 }
 #button5  {
 position: absolute;
-right: 10%;
+right: 2%;
 top: 72%;
+background-color: #e3e1de;
+border: 1px solid transparent;
+}
+#button5 svg{
+  width: 20px;
 }
 header a{
   position: absolute;
-  right: 20px;
+  right: 1%;
   top: 10%;
 }
   header form{
   max-width: 100%;
   display: block;
+}
+#button1 svg{
+  width: 20px;
+}
+.nav{
+  display: none;
 }
 }
 header div{
