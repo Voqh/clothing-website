@@ -11,54 +11,9 @@ header {
   display: flex;
   align-items: stretch;
 }
-@media screen and (max-width:720px) {
-  body{
-    box-sizing: border-box;
-  }
-header{
-  position: relative;
- display: inline-block;
- padding: 10px;
- max-width: 100%;
- box-sizing: border-box;
-}
-.search{
-  background-color: white;
-  border: 1px solid black;
-  width: 80%;
-}
-header input{
-  border: none;
-}
-#button5  {
-position: absolute;
-right: 2%;
-top: 72%;
-background-color: #e3e1de;
-border: 1px solid transparent;
-}
-#button5 svg{
-  width: 20px;
-}
-header a{
-  position: absolute;
-  right: 1%;
-  top: 10%;
-}
-  header form{
-  max-width: 100%;
-  display: block;
-}
-#button1 svg{
-  width: 20px;
-}
-.nav{
-  display: none;
-}
-}
 header div{
   display: flex;
-align-items: center;
+  align-items: center;
 }
 
 body > header > div:nth-child(3) > svg{
@@ -120,34 +75,11 @@ main li img {
   height: 100%;
 }
 nav {
-  position: sticky;
-  top: 60px;
   background-color: #e3e1de;
   margin-top: 2px;
   display: block;
-  z-index: 1;
 }
-nav ul {
-  white-space: nowrap;
-  max-width: 1200px;
-  margin: 5px auto;
-  list-style-type: none;
-  text-align: center;
-}
-nav li {
-  width: 33.3%;
-  display: inline-block;
-  font-size: 20px;
-}
-nav li a {
-  text-decoration: none;
-  color: black;
-  border: 1px solid #f331a2;
-  border-radius: 30px;
-  display: inline-block;
-  background-color: #e3e1de;
-  padding: 3px 6px;
-}
+
 .text {
   font-size: 24px;
   font-family: "Courier New", Courier, monospace;
@@ -173,3 +105,109 @@ nav li a:hover {
   border: 1px solid blue;
   color: blue;
 }
+  @media screen and (max-width:720px) {
+    body{
+      box-sizing: border-box;
+    }
+  header{
+    position: relative;
+   display: inline-block;
+   padding: 10px;
+   max-width: 100%;
+   box-sizing: border-box;
+  }
+  header h1{
+    position: absolute;
+    left: 30%;
+    top: 1%;
+    border:1px solid #f331a2;
+    border-radius: 30px;
+    padding: 2px 6px;
+    color: #f331a2;
+  }
+  .search{
+    background-color: white;
+    border: 1px solid black;
+    width: 80%;
+  }
+  header input{
+    border: none;
+  }
+  #button5  {
+  position: absolute;
+  right: 2%;
+  top: 57%;
+  background-color: #e3e1de;
+  border: 1px solid transparent;
+  }
+  #button5 svg{
+    width: 20px;
+  }
+  header a{
+    position: absolute;
+    right: 1%;
+    top: 10%;
+  }
+    header form{
+    max-width: 100%;
+    display: block;
+  }
+  #button1 svg{
+    width: 20px;
+  }
+ 
+  #button1 {
+    margin-bottom: 10px;
+  }
+  header a{
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 30px;
+    padding: 0px 4px;
+  }
+  #button5 svg:hover{
+    width: 25px;
+  }
+  header a:hover{
+font-size: 17px;
+  }
+  .banner{
+    position: static;
+
+  }
+  .banner .shop{
+    position: static;
+  }
+  .banner h2{
+    font-size: 15px;
+  }
+  main{
+    margin: 0px auto;
+    box-sizing: border-box;
+    display: block;
+  }
+  main li {
+    display: block;
+    align-content: space-between;
+    width: 100%;
+  }
+  .nav{
+    margin: 10px auto;
+    background-color: #e3e1de;
+    padding: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .nav a{
+    margin: 0px 6px;
+    padding: 4px;
+    text-decoration: none;
+    border: 1px solid blue;
+    border-radius: 30px;
+    color: blue;
+
+  }
+  .nav a:hover{
+    font-size: 0.7em;
+  }
+  }
